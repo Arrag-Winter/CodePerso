@@ -1,0 +1,268 @@
+/* Styles pour le header */
+.header-z {
+    background-size: 100%;
+    background-image: url(../img/FloFlowake.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1920px;
+    padding: 40px;
+    text-align: center;
+    color: white; /* Couleur du texte */
+}
+
+.header-y {
+    margin-top: 0px;
+    background-size: 100%;
+    background-image: url(../img/FloWake73.JPG);
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 1920px;
+    padding: 40px;
+    text-align: center;
+    color: white; /* Couleur du texte */
+}
+.header img {
+    margin: 0%;
+}
+
+.header-title {
+    font-size: 72px; /* Augmente la taille du texte par 2 */
+    margin-bottom: 20px;
+}
+
+/* Styles pour les titres de niveau 2 dans le header */
+.header h2 {
+    font-size: 50px; /* Augmente la taille de la police pour les titres h2 */
+}
+
+.header p {
+    font-size: 35px;
+}
+
+/* Styles pour les liens dans le header */
+.header-nav {
+    height: 80px; /* Augmente la hauteur de header-nav */
+}
+
+.header-nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%; /* Ajuste la hauteur de la liste à 100% de la hauteur de header-nav */
+}
+
+/* Styles pour les liens dans le header */
+.header-nav ul li a {
+    
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    transition: all 0.8s ease; /* Ajoute un effet de transition en douceur */
+    font-size: 24px; /* Augmente la taille de la police */
+}
+
+.header-nav ul li a:hover {
+    background-color: lightgrey;
+    transform: translateY(-2px); /* Ajoute un effet de légère élévation */
+}
+
+/* Styles pour le bouton du mode nuit */
+#night-mode-btn {
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    padding: 15px 30px; /* Augmenter la taille du bouton */
+    border-radius: 20px; /* Bords arrondis */
+    cursor: pointer;
+    margin-left: 20px; /* Ajoute un espace entre "Florentin" et le bouton */
+}
+
+#night-mode-btn:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+    transition: all 1s ease;
+}
+
+/* Styles pour le mode sombre */
+.dark-mode {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte en mode sombre */
+}
+
+/* Réutilisation des styles pour les titres et paragraphes */
+.info-heading, .info-paragraph {
+    font-family: 'Italico', system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif; /* Police "Pacifico" */
+    -webkit-text-stroke: 1px black; /* Contour noir */
+    -webkit-text-fill-color: white; /* Remplissage blanc */
+}
+
+/* Styles pour les liens */
+a {
+    text-decoration: none; /* Supprime la soulignement des liens */
+    color:black; /* Couleur du texte des liens */
+}
+
+a:hover {
+    text-decoration: underline; /* Soulignement des liens au survol */
+    color: red; /* Couleur du texte des liens au survol */
+}
+
+.container {
+    position: static;
+    margin-top: 100px; /* Espacement au-dessus des images */
+    margin-bottom: 50px; /* Espacement en dessous des boutons */
+    text-align: center; /* Centrer le contenu horizontalement */
+}
+
+
+/* Styles pour l'enveloppe des boutons */
+.button-wrapper {
+    position: absolute;
+    top: 10px; /* Ajuster la distance du haut */
+    margin: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.nav-link {
+    margin: auto;
+    text-decoration: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    font-size: 24px;
+    border: 2px solid white; /* Bordure blanche */
+    background-color: black;
+    margin-bottom: 40px;
+    margin-right: 20px; /* Ajoutez une marge à droite */
+    display: inline-block; /* Pour centrer le texte */
+    text-align: center; /* Pour centrer le texte */
+    font-family: Arial, sans-serif; /* Utiliser la même police que le bouton Mode Nuit */
+}
+
+
+.nav-link:hover {
+    background-color: white; /* Fond blanc au survol */
+    color: black; /* Texte en noir au survol */
+    text-decoration: none; /* Supprimer le soulignement au survol */
+}
+
+/* Styles pour la galerie */
+.gallery {
+    display: flex;
+    flex-wrap: wrap; /* Permettre le retour à la ligne des images */
+    justify-content: center; /* Centrer horizontalement les images */
+    margin-top: 2cm; /* Espacement au-dessus de la galerie */
+}
+
+.image {
+    width: 150px; /* Largeur fixe pour les images */
+    height: 150px; /* Hauteur fixe pour les images */
+    margin: 15px; /* Espacement entre les images */
+    border-radius: 10px; /* Coins arrondis */
+    overflow: hidden; /* Masquer les coins arrondis des images */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Ombre douce */
+    transition: all 1s ease; /* Transition douce */
+}
+
+.image img {
+    width: 100%; /* Remplir le conteneur parent */
+    height: 100%; /* Remplir le conteneur parent */
+    object-fit: cover; /* Redimensionne l'image pour remplir le conteneur en conservant le ratio d'aspect */
+}
+
+
+
+/* Styles pour le mode sombre */
+.dark-mode {
+    background-color: #121212; /* Couleur de fond sombre */
+    color: #ffffff; /* Couleur du texte en mode sombre */
+    transition: all 1.5s ease; /* Transition en douceur */
+}
+
+/* Styles pour le bouton Mode Nuit */
+#night-mode-btn {
+    margin: auto; /* Centrer horizontalement */
+    text-decoration: none; /* Supprimer la soulignement */
+    color: white; /* Couleur du texte */
+    padding: 10px 20px; /* Espacement à l'intérieur du bouton */
+    border-radius: 20px; /* Coins arrondis */
+    transition: all 0.8s ease; /* Transition en douceur */
+    font-size: 24px; /* Taille de la police */
+    background-color: black; /* Couleur de fond */
+    border: 2px solid white; /* Bordure blanche */
+    cursor: pointer; /* Curseur pointer */
+    margin-bottom: 40px;
+    margin-right: 20px;
+}
+
+/* Au survol, le bouton devient blanc avec du texte noir */
+#night-mode-btn:hover {
+    background-color: white !important; /* Fond blanc */
+    color: black !important; /* Texte noir */
+}
+
+/* Styles pour le bouton en mode sombre */
+.dark-mode #night-mode-btn {
+    background-color: transparent; /* Fond transparent */
+    color: white; /* Texte blanc */
+}
+
+/* Styles pour le bouton Mode Nuit en mode clair */
+.light-mode #night-mode-btn {
+    background-color: black; /* Fond noir */
+    color: white; /* Texte blanc */
+    margin-top: 0; /* Ajustement du margin-top */
+}
+
+/* Transition en douceur entre les pages */
+.page-transition {
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+/* Styles pour le formulaire */
+form {
+    text-align: center; /* Centrer le contenu horizontalement */
+    margin-top: 50px; /* Marge en haut du formulaire */
+}
+
+
+/* Styles pour les champs du formulaire */
+form div {
+    margin-bottom: 20px; /* Espacement entre les champs */
+}
+
+form label {
+    display: block; /* Afficher les étiquettes sur une nouvelle ligne */
+}
+
+form input[type="text"],
+form input[type="email"] {
+    width: 50%; /* Largeur réduite à 50% */
+    padding: 5px; /* Espacement à l'intérieur des champs */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    box-sizing: border-box; /* Inclure la bordure et le rembourrage dans la largeur totale */
+}
+
+/* Styles pour le bouton Envoyer */
+form input[type="submit"] {
+    background-color: black; /* Couleur de fond bleue */
+    color: #fff; /* Couleur du texte blanc */
+    padding: 5px 10px; /* Espacement à l'intérieur du bouton */
+    border: none; /* Pas de bordure */
+    border-radius: 5px; /* Coins arrondis */
+    font-size: 16px; /* Taille de la police */
+    cursor: pointer; /* Curseur pointeur */
+    transition: background-color 0.3s ease; /* Transition en douceur */
+}
+
+h1 {
+    font-family: 'Italico', sans-serif;
+}
